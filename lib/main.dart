@@ -64,11 +64,11 @@ class splasScreen extends StatefulWidget {
 }
 
 class _splasScreenState extends State<splasScreen> {
-  @override
-  void initState() {
- Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>PhoneLoginSreen()));
-    super.initState();
-  }
+ //  @override
+ //  void initState() {
+ // Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>PhoneLoginSreen()));
+ //    super.initState();
+ //  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(body: Container());
